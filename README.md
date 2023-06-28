@@ -40,4 +40,4 @@ To connect the lidar sensor, we followed the diagram presented in the aforementi
 - https://www.mouser.pl/datasheet/2/1099/Benewake_10152020_TF_Luna-1954056.pdf
 - https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
 - https://en.wikipedia.org/wiki/Time-of-flight_camera
-- [Writing on GitHub] ( https://docs.github.com/en/get-started/writing-on-github ) 
+- [Writing on GitHub](https://docs.github.com/en/get-started/writing-on-github) 
