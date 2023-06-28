@@ -6,7 +6,7 @@
 A simple system that scans the environment, presents real-time distance from obstacles on a graph and beeps if an object is too close.
 # Science and tech used 
 ## Principle of operation
-The lidar sensor uses a class 1 laser and a detector sensitive to its wavelength to calculate the TOF (time of flight - the time between sending a laser impulse and detecting the light reflected from an obstacle), which is then used to calculate the distance. 
+The lidar sensor uses a class 1 laser and a detector sensitive to its wavelength to calculate the TOF (time of flight - the time between sending a laser impulse and detecting the light reflected from an obstacle), which is then used to calculate the distance. A more detailed explanation of the TOF method is available at https://en.wikipedia.org/wiki/Time-of-flight_camera.
 
 By placing the sensor on the servomechanism, we can obtain a real-time depth image in a half-plane at the frequency of around 1Hz.
 ## Elements used in the project
@@ -14,9 +14,10 @@ By placing the sensor on the servomechanism, we can obtain a real-time depth ima
 https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
 ### Lidar distance sensor (TF Luna 8m UARTI2C)
 https://botland.store/time-of-flight-sensor/16638-lidar-tf-luna-laser-distance-sensor-8m-uarti2c-5903351249041.html
+The full specifications can be found in TFLuna-specs.pdf or at https://www.mouser.pl/datasheet/2/1099/Benewake_10152020_TF_Luna-1954056.pdf.
 ### Servo (FEETECH Standard Servo FS5103B)
 https://www.pololu.com/product/3424  
-Servo has a running angle of approximately 180°, the angular velocity can be easily modified in a wide range. Full specification can be found in FS5103B-specs.pdf.
+Servo has a running angle of approximately 180°, its angular velocity can be easily modified in a wide range. Full specifications can be found in FS5103B-specs.pdf.
 ### Other
 - Piezo buzzer,
 - 5V power generator (optional, the 5V pins of Raspberry Pi seem to work just fine)),
@@ -36,5 +37,7 @@ To connect the lidar sensor, we followed the diagram presented in the aforementi
 - https://botland.store/time-of-flight-sensor/16638-lidar-tf-luna-laser-distance-sensor-8m-uarti2c-5903351249041.html
 - https://github.com/makerportal/tfluna-python
 - https://www.pololu.com/product/3424
+- https://www.mouser.pl/datasheet/2/1099/Benewake_10152020_TF_Luna-1954056.pdf
 - https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
+- https://en.wikipedia.org/wiki/Time-of-flight_camera
 - [Writing on GitHub] ( https://docs.github.com/en/get-started/writing-on-github ) 
