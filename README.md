@@ -13,11 +13,15 @@ By placing the sensor on the servomechanism, we can obtain a real-time depth ima
 ### Raspberry Pi (4, model B, 2018)
 https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
 ### Lidar distance sensor (TF Luna 8m UARTI2C)
-https://botland.com.pl/czujniki-time-of-flight/16638-laserowy-czujnik-odleglosci-lidar-tf-luna-8m-uarti2c-5903351249041.html
+https://botland.store/time-of-flight-sensor/16638-lidar-tf-luna-laser-distance-sensor-8m-uarti2c-5903351249041.html
 ### Servo (FEETECH Standard Servo FS5103B)
 https://www.pololu.com/product/3424  
 Servo has a running angle of approximately 180°, the angular velocity can be easily modified in a wide range.
-### Piezo buzzer, 5V power generator, a breadboard and quite a lot of wires
+### Other
+- Piezo buzzer,
+- 5V power generator (optional, the 5V pins of Raspberry Pi seem to work just fine)),
+- a small breadboard
+- quite a lot of wires
 # State of the art 
 ## Software
 For configuration and control of the lidar sensor, we followed the tutorial available at https://makersportal.com/blog/distance-detection-with-the-tf-luna-lidar-and-raspberry-pi and used the software mentioned in it (https://github.com/makerportal/tfluna-python), which we later modified to accommodate the use of servo and piezo buzzer. The final code is in the file Lidar_test_rt.py.
