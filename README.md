@@ -6,16 +6,18 @@
 A simple system that scans the environment, presents real-time distance from obstacles on a graph and beeps if an object is too close.
 # Science and tech used 
 ## Principle of operation
+The lidar sensor uses a class 1 laser and a detector sensitive to its wavelength to calculate the TOF (time of flight - the time between sending a laser impulse and detecting the light reflected from an obstacle), which is then used to calculate the distance. 
 
+By placing the sensor on the servomechanism, we can obtain a real-time depth image of a half-plane at the frequency of around 1Hz.
 ## Elements used in the project
 ### Raspberry Pi (4, model B, 2018)
+https://www.raspberrypi.com/products/raspberry-pi-4-model-b/
 ### Lidar distance sensor (TF Luna 8m UARTI2C)
 https://botland.com.pl/czujniki-time-of-flight/16638-laserowy-czujnik-odleglosci-lidar-tf-luna-8m-uarti2c-5903351249041.html
-The lidar sensor uses a class 1laser to calculate the TOF 
-### servo (FEETECH Standard Servo FS5103B)
-https://www.pololu.com/product/3424
-### piezo buzzer
-Text & plots here... 
+### Servo (FEETECH Standard Servo FS5103B)
+https://www.pololu.com/product/3424  
+Servo has a running angle of approximately 180°, the angular velocity can be easily modified in a wide range.
+### Piezo buzzer, 5V power generator, a breadboard and quite a lot of wires
 # State of the art 
 Text & plots here... 
 # What next?
