@@ -18,6 +18,8 @@ Text & plots here...
 # State of the art 
 Text & plots here... 
 # What next?
-- The servomechanism does not work very smoothly, even with no load ontop of it. It is partcularly noticable when the servo is controlled by the same piece of code as the lidar sensor. We couldn't identify the cause of the jittering, even though we tested various power sources. This is the first step towards an overall improvement of the performance of the system and further development, as too much jittering impedes the imaging process.
+- The servomechanism does not work very smoothly, even with no load ontop of it. It is particularly noticeable when the servo is controlled by the same piece of code (same loop) as the lidar sensor. We couldn't identify the cause of the jittering, even though we tested various power sources. This is the first step towards an overall improvement of the performance of the system and further development, as too much jittering impedes the imaging process.
+- Designing a dedicated camera holder for a more secure fit.
+- Creating a 2D (or 3D) image of the surroundings.
 # Sources 
 - [Writing on GitHub] ( https://docs.github.com/en/get-started/writing-on-github ) 
